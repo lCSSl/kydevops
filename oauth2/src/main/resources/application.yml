@@ -1,0 +1,21 @@
+#server:
+#  port: 7001
+#  servlet:
+#    context-path: /auth #  localhost:7001/auth
+#
+#spring:
+#  # 数据源配置
+#  datasource:
+#    username: root
+#    password: LYY&css1314
+#    url: jdbc:mysql:///kaiyu.work:3306/WMS?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=GMT%2B8&allowMultiQueries=true
+#    #mysql8版本以上驱动包指定新的驱动类
+#    driver-class-name: com.mysql.jdbc.Driver
+#    #   数据源其他配置, 在 DruidConfig配置类中手动绑定
+#    initialSize: 8
+#    minIdle: 5
+#    maxActive: 20
+#    maxWait: 60000
+#    timeBetweenEvictionRunsMillis: 60000
+#    minEvictableIdleTimeMillis: 300000
+#    validationQuery: SELECT 1 FROM DUAL

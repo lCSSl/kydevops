@@ -1,7 +1,7 @@
 package com.kaiyu.devops.oauth2.config;
 
 import com.alibaba.fastjson.JSON;
-import com.mengxuegu.blog.oauth2.service.JwtUser;
+import com.kaiyu.devops.oauth2.service.JwtUser;
 import org.springframework.security.oauth2.common.DefaultOAuth2AccessToken;
 import org.springframework.security.oauth2.common.OAuth2AccessToken;
 import org.springframework.security.oauth2.provider.OAuth2Authentication;

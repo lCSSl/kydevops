@@ -1,8 +1,8 @@
 package com.kaiyu.devops.oauth2.service;
 
-import com.mengxuegu.blog.entities.SysMenu;
-import com.mengxuegu.blog.entities.SysUser;
-import com.mengxuegu.blog.feign.IFeignSystemController;
+import com.kaiyu.devops.entities.SysMenu;
+import com.kaiyu.devops.entities.SysUser;
+import com.kaiyu.devops.feign.IFeignSystemController;
 import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;

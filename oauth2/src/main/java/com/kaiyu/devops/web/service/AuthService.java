@@ -6,8 +6,8 @@ import com.arronlong.httpclientutil.HttpClientUtil;
 import com.arronlong.httpclientutil.common.HttpConfig;
 import com.arronlong.httpclientutil.common.HttpHeader;
 import com.arronlong.httpclientutil.exception.HttpProcessException;
-import com.mengxuegu.blog.util.base.Result;
-import com.mengxuegu.blog.util.enums.ResultEnum;
+import com.kaiyu.devops.util.base.Result;
+import com.kaiyu.devops.util.enums.ResultEnum;
 import org.apache.commons.lang.StringUtils;
 import org.apache.http.Header;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,7 +26,8 @@ public class AuthService {
 
     /**
      * 通过刷新令牌获取新的认证令牌
-     * @param header 请求头：客户端信息，Basic clientId:clientSecret
+     *
+     * @param header       请求头：客户端信息，Basic clientId:clientSecret
      * @param refreshToken 刷新令牌
      * @return
      */
@@ -34,7 +35,7 @@ public class AuthService {
         // 采用客户端负载均衡，从Nacos服务器中获取对应服务的ip与端口号
         ServiceInstance serviceInstance =
                 loadBalancerClient.choose("auth-server");
-        if(serviceInstance == null) {
+        if (serviceInstance == null) {
             return Result.error("未找到有效认证服务器，请稍后重试");
         }
         // 请求刷新令牌url
@@ -60,7 +61,7 @@ public class AuthService {
 
         JSONObject jsonToken = JSON.parseObject(token);
         // 如果响应内容中包含了error属性值，则获取新的认证失败。
-        if(StringUtils.isNotEmpty(jsonToken.getString("error"))) {
+        if (StringUtils.isNotEmpty(jsonToken.getString("error"))) {
             return Result.build(ResultEnum.TOKEN_PAST);
         }
 

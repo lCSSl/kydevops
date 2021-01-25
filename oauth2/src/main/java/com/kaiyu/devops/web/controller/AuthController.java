@@ -1,9 +1,9 @@
 package com.kaiyu.devops.web.controller;
 
 import com.google.common.base.Preconditions;
-import com.mengxuegu.blog.util.base.Result;
-import com.mengxuegu.blog.util.tools.RequestUtil;
-import com.mengxuegu.blog.web.service.AuthService;
+import com.kaiyu.devops.util.base.Result;
+import com.kaiyu.devops.util.tools.RequestUtil;
+import com.kaiyu.devops.web.service.AuthService;
 import org.apache.commons.lang.StringUtils;
 import org.apache.http.HttpHeaders;
 import org.slf4j.Logger;
@@ -42,7 +42,7 @@ public class AuthController {
 
             // 获取请求头
             String header = request.getHeader(HttpHeaders.AUTHORIZATION);
-            if(header == null || !header.startsWith(HEADER_TYPE)) {
+            if (header == null || !header.startsWith(HEADER_TYPE)) {
                 throw new UnsupportedOperationException("请求头中无client信息");
             }
             // 解析请求头的客户端信息
@@ -55,17 +55,17 @@ public class AuthController {
             // 查询客户端信息，核对是否有效
             ClientDetails clientDetails =
                     clientDetailsService.loadClientByClientId(clientId);
-            if(clientDetails == null) {
+            if (clientDetails == null) {
                 throw new UnsupportedOperationException("clientId对应的配置信息不存在：" + clientId);
             }
             // 校验客户端密码是否有效
-            if( !passwordEncoder.matches(clientSecret, clientDetails.getClientSecret())) {
+            if (!passwordEncoder.matches(clientSecret, clientDetails.getClientSecret())) {
                 throw new UnsupportedOperationException("无效clientSecret");
             }
 
             // 获取新的认证信息
             return authService.refreshToken(header, refreshToken);
-        } catch(Exception e) {
+        } catch (Exception e) {
             logger.error("refreshToken={}", e.getMessage(), e);
             return Result.error("新令牌获取失败：" + e.getMessage());
         }
