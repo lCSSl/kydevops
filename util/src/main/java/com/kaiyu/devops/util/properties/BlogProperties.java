@@ -10,10 +10,10 @@ import java.io.Serializable;
 @Setter
 @Getter
 @Component
-@ConfigurationProperties(prefix = "mengxuegu.blog")
+@ConfigurationProperties(prefix = "kaiyu.blog")
 public class BlogProperties implements Serializable {
 
-    // 会将 mengxuegu.blog.aliyun 下的配置绑定到 AliyunProperties 对象属性上
+    // 会将 kaiyu.blog.aliyun 下的配置绑定到 AliyunProperties 对象属性上
     private AliyunProperties aliyun;
 
 }
