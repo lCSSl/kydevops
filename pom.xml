@@ -13,6 +13,8 @@
         <module>develop</module>
         <module>aop</module>
         <module>gateway</module>
+        <module>util</module>
+        <module>oauth2</module>
     </modules>
 
     <name>Maven</name>
@@ -45,6 +47,7 @@
         <httpclientutil.version>1.0.4</httpclientutil.version>
         <mybatis-plus.version>3.3.1</mybatis-plus.version>
         <kaptcha.version>2.3.2</kaptcha.version>
+        <fastjson.version>1.2.8</fastjson.version>
     </properties>
 
     <!-- 子模块继承之后，提供作用：锁定版本+子modlue不用写groupId和version  -->
@@ -130,6 +133,11 @@
                 <groupId>com.aliyun.oss</groupId>
                 <artifactId>aliyun-sdk-oss</artifactId>
                 <version>3.10.2</version>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>${fastjson.version}</version>
             </dependency>
             <!--http请求工具-->
             <dependency>
