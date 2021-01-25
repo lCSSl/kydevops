@@ -5,12 +5,17 @@
 #
 #spring:
 #  # 数据源配置
+#  redis:
+#    host: manage.kaiyu.work # Redis服务器地址
+#    port: 6379 # Redis服务器连接端口
+#    # Redis 服务器连接密码（默认为空），注释放到上面来，不然控制台可能会一直打印日志
+#    password:
 #  datasource:
 #    username: root
 #    password: LYY&css1314
-#    url: jdbc:mysql:///kaiyu.work:3306/WMS?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=GMT%2B8&allowMultiQueries=true
+#    url: jdbc:mysql://kaiyu.work:3306/WMS?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=GMT%2B8&allowMultiQueries=true
 #    #mysql8版本以上驱动包指定新的驱动类
-#    driver-class-name: com.mysql.jdbc.Driver
+#    driver-class-name: com.mysql.cj.jdbc.Driver
 #    #   数据源其他配置, 在 DruidConfig配置类中手动绑定
 #    initialSize: 8
 #    minIdle: 5
@@ -19,3 +24,4 @@
 #    timeBetweenEvictionRunsMillis: 60000
 #    minEvictableIdleTimeMillis: 300000
 #    validationQuery: SELECT 1 FROM DUAL
+#
