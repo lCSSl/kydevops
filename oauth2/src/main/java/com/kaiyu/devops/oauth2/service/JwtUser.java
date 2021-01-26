@@ -11,6 +11,11 @@ import java.util.List;
 @Data
 public class JwtUser implements UserDetails {
 
+    /**
+     *
+     */
+    private static final long serialVersionUID = -2040263517093727025L;
+
     @ApiModelProperty(value = "用户ID")
     private String uid;
 

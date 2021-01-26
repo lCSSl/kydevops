@@ -12,7 +12,12 @@ import lombok.experimental.Accessors;
 @Accessors(chain = true)
 public class LabelREQ extends BaseRequest<Label> {
 
-    @ApiModelProperty(value="标签名称")
+    /**
+	 *
+	 */
+	private static final long serialVersionUID = 3808976804452743992L;
+
+	@ApiModelProperty(value="标签名称")
     private String name;
 
     @ApiModelProperty(value="分类id")

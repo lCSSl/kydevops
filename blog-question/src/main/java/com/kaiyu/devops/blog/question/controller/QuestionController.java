@@ -1,4 +1,4 @@
-package com.mengxuegu.blog.question.controller;
+package com.kaiyu.devops.blog.question.controller;
 
 
 import com.kaiyu.devops.entities.Question;

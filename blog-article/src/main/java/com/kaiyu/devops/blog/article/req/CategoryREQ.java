@@ -16,6 +16,11 @@ import lombok.experimental.Accessors;
 public class CategoryREQ extends BaseRequest<Category> {
 
     /**
+     *
+     */
+    private static final long serialVersionUID = 3919262706765105628L;
+
+    /**
      * 分类名称
      */
     @ApiModelProperty(value = "分类名称")

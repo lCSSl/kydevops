@@ -12,6 +12,11 @@ import lombok.experimental.Accessors;
 @ApiModel(value = "ArticleREQ对象", description = "文章查询条件")
 public class ArticleREQ extends BaseRequest<Article> {
 
+    /**
+     *
+     */
+    private static final long serialVersionUID = -8499046767587382535L;
+
     @ApiModelProperty(value = "文章标题")
     private String title;
 

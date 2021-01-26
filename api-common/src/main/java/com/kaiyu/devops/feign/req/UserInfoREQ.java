@@ -12,6 +12,11 @@ import java.io.Serializable;
 @ApiModel("更新用户信息请求类")
 public class UserInfoREQ implements Serializable {
 
+    /**
+     *
+     */
+    private static final long serialVersionUID = 3190605360928465138L;
+
     @ApiModelProperty(value = "用户id", required = true)
     private String userId;
 
