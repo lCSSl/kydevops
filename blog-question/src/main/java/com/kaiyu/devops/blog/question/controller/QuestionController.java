@@ -2,7 +2,7 @@ package com.mengxuegu.blog.question.controller;
 
 
 import com.kaiyu.devops.entities.Question;
-import com.mengxuegu.blog.question.req.QuestionUserREQ;
+import com.kaiyu.devops.blog.question.req.QuestionUserREQ;
 import com.kaiyu.devops.blog.question.service.IQuestionService;
 import com.kaiyu.devops.util.base.Result;
 import io.swagger.annotations.Api;

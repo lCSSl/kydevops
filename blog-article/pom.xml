@@ -76,7 +76,7 @@
                 <version>1.2.0</version>
                 <configuration>
                     <!-- Docker宿主机地址 -->
-                    <dockerHost>http://39.108.187.100:2375</dockerHost>
+                    <dockerHost>http://localhost:2376</dockerHost>
                     <!-- 镜像名字:版本号 -->
                     <imageName>${project.artifactId}:${project.version}</imageName>
                     <!-- true 会覆盖构建相同标签的镜像 -->

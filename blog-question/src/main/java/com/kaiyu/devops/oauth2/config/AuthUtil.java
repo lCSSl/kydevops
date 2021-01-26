@@ -1,6 +1,6 @@
 package com.kaiyu.devops.oauth2.config;
 
-import com.mengxuegu.blog.entities.SysUser;
+import com.kaiyu.devops.entities.SysUser;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationDetails;
