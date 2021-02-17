@@ -10,3 +10,4 @@ spring:
         file-extension: yml # 配置中心的配置后缀
   profiles:
     active: dev # 指定环境为开发环境，即读取 auth-server-dev.yml
+
