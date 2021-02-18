@@ -34,7 +34,7 @@
 #mybatis-plus:
 #  type-aliases-package: com.kaiyu.devops.entities
 #  # xxxMapper.xml 路径
-#  mapper-locations: classpath*:com/kaiyu/blog/article/mapper/**/*.xml
+#  mapper-locations: classpath*:com/kaiyu/devops/blog/article/mapper/**/*.xml
 ##  mapper-locations: classpath*:mapper/*.xml
 #
 ## 日志级别，会打印sql语句
