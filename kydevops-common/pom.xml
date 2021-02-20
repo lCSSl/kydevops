@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>work.kaiyu</groupId>
+        <artifactId>kydevops</artifactId>
+        <version>0.1</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <modules>
+        <module>kydevops-common-log</module>
+        <module>kydevops-common-core</module>
+        <module>kydevops-common-redis</module>
+        <module>kydevops-common-swagger</module>
+        <module>kydevops-common-security</module>
+        <module>kydevops-common-datascope</module>
+    </modules>
+
+    <artifactId>kydevops-common</artifactId>
+    <packaging>pom</packaging>
+
+    <description>
+	    kydevops-common通用模块
+    </description>
+
+</project>

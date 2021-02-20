@@ -4,16 +4,16 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.ruoyi</groupId>
-    <artifactId>ruoyi</artifactId>
-    <version>2.1.0</version>
+    <groupId>work.kaiyu</groupId>
+    <artifactId>kydevops</artifactId>
+    <version>0.1</version>
 
-    <name>ruoyi</name>
-    <url>http://www.ruoyi.vip</url>
-    <description>若依微服务系统</description>
+<!--    <name>ruoyi</name>-->
+<!--    <url>http://www.ruoyi.vip</url>-->
+<!--    <description>若依微服务系统</description>-->
 
     <properties>
-        <ruoyi.version>2.1.0</ruoyi.version>
+        <kydevops.version>0.1</kydevops.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
@@ -71,21 +71,21 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-			
+
             <!--  SpringBoot 监控客户端 -->
             <dependency>
                 <groupId>de.codecentric</groupId>
                 <artifactId>spring-boot-admin-starter-client</artifactId>
                 <version>${spring-boot-admin.version}</version>
             </dependency>
-			
+
             <!-- Mybatis 依赖配置 -->
             <dependency>
                 <groupId>org.mybatis.spring.boot</groupId>
                 <artifactId>mybatis-spring-boot-starter</artifactId>
                 <version>${spring-boot.mybatis}</version>
             </dependency>
-			
+
             <!-- Swagger 依赖配置 -->
             <dependency>
                 <groupId>io.swagger</groupId>
@@ -146,7 +146,7 @@
                 <artifactId>fastjson</artifactId>
                 <version>${fastjson.version}</version>
             </dependency>
-            
+
             <!-- 公共资源池 -->
             <dependency>
                 <groupId>org.apache.commons</groupId>
@@ -156,68 +156,68 @@
 
             <!-- 核心模块 -->
 	        <dependency>
-                <groupId>com.ruoyi</groupId>
-                <artifactId>ruoyi-common-core</artifactId>
-                <version>${ruoyi.version}</version>
+                <groupId>work.kaiyu</groupId>
+                <artifactId>kydevops-common-core</artifactId>
+                <version>${kydevops.version}</version>
             </dependency>
-			
+
             <!-- 接口模块 -->
             <dependency>
-                <groupId>com.ruoyi</groupId>
-                <artifactId>ruoyi-common-swagger</artifactId>
-                <version>${ruoyi.version}</version>
+                <groupId>work.kaiyu</groupId>
+                <artifactId>kydevops-common-swagger</artifactId>
+                <version>${kydevops.version}</version>
             </dependency>
-	        
+
             <!-- 安全模块 -->
             <dependency>
-                <groupId>com.ruoyi</groupId>
-                <artifactId>ruoyi-common-security</artifactId>
-                <version>${ruoyi.version}</version>
+                <groupId>work.kaiyu</groupId>
+                <artifactId>kydevops-common-security</artifactId>
+                <version>${kydevops.version}</version>
             </dependency>
-	        
+
             <!-- 权限范围 -->
             <dependency>
-                <groupId>com.ruoyi</groupId>
-                <artifactId>ruoyi-common-datascope</artifactId>
-                <version>${ruoyi.version}</version>
+                <groupId>work.kaiyu</groupId>
+                <artifactId>kydevops-common-datascope</artifactId>
+                <version>${kydevops.version}</version>
             </dependency>
-			
+
             <!-- 日志记录 -->
             <dependency>
-                <groupId>com.ruoyi</groupId>
-                <artifactId>ruoyi-common-log</artifactId>
-                <version>${ruoyi.version}</version>
+                <groupId>work.kaiyu</groupId>
+                <artifactId>kydevops-common-log</artifactId>
+                <version>${kydevops.version}</version>
             </dependency>
-			
+
             <!-- 缓存服务 -->
             <dependency>
-                <groupId>com.ruoyi</groupId>
-                <artifactId>ruoyi-common-redis</artifactId>
-                <version>${ruoyi.version}</version>
+                <groupId>work.kaiyu</groupId>
+                <artifactId>kydevops-common-redis</artifactId>
+                <version>${kydevops.version}</version>
             </dependency>
-			
+
             <!-- 系统接口 -->
             <dependency>
-                <groupId>com.ruoyi</groupId>
-                <artifactId>ruoyi-api-system</artifactId>
-                <version>${ruoyi.version}</version>
+                <groupId>work.kaiyu</groupId>
+                <artifactId>kydevops-api-system</artifactId>
+                <version>${kydevops.version}</version>
             </dependency>
-			
+
         </dependencies>
     </dependencyManagement>
 
     <modules>
-		<module>ruoyi-auth</module>
-		<module>ruoyi-gateway</module>
-		<module>ruoyi-visual</module>
-		<module>ruoyi-modules</module>
-		<module>ruoyi-api</module>
-		<module>ruoyi-common</module>
+		<module>kydevops-auth</module>
+		<module>kydevops-gateway</module>
+		<module>kydevops-visual</module>
+		<module>kydevops-modules</module>
+		<module>kydevops-api</module>
+		<module>kydevops-common</module>
     </modules>
     <packaging>pom</packaging>
 
     <dependencies>
-        
+
     </dependencies>
 
     <build>
