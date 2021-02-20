@@ -86,7 +86,7 @@ public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdap
 
     @Override
     public void configure(AuthorizationServerSecurityConfigurer security) throws Exception {
-        // /oauth/check_token 解析令牌，默认情况 下拒绝访问
+        // /oauth/check_token 解析令牌，默认情况下拒绝访问
         security.checkTokenAccess("permitAll()");
     }
 }
