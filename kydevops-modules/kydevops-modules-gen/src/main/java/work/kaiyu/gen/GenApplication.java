@@ -2,9 +2,9 @@ package work.kaiyu.gen;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.cloud.client.SpringCloudApplication;
-import com.ruoyi.common.security.annotation.EnableCustomConfig;
-import com.ruoyi.common.security.annotation.EnableRyFeignClients;
-import com.ruoyi.common.swagger.annotation.EnableCustomSwagger2;
+import work.kaiyu.common.security.annotation.EnableCustomConfig;
+import work.kaiyu.common.security.annotation.EnableRyFeignClients;
+import work.kaiyu.common.swagger.annotation.EnableCustomSwagger2;
 
 /**
  * 代码生成

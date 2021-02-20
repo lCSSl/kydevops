@@ -2,7 +2,7 @@ package work.kaiyu.job.service;
 
 import java.util.List;
 import org.quartz.SchedulerException;
-import com.ruoyi.common.core.exception.job.TaskException;
+import work.kaiyu.common.core.exception.job.TaskException;
 import work.kaiyu.job.domain.SysJob;
 
 /**

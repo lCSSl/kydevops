@@ -10,9 +10,9 @@ import org.quartz.Scheduler;
 import org.quartz.SchedulerException;
 import org.quartz.TriggerBuilder;
 import org.quartz.TriggerKey;
-import com.ruoyi.common.core.constant.ScheduleConstants;
-import com.ruoyi.common.core.exception.job.TaskException;
-import com.ruoyi.common.core.exception.job.TaskException.Code;
+import work.kaiyu.common.core.constant.ScheduleConstants;
+import work.kaiyu.common.core.exception.job.TaskException;
+import work.kaiyu.common.core.exception.job.TaskException.Code;
 import work.kaiyu.job.domain.SysJob;
 
 /**

@@ -2,7 +2,7 @@ package work.kaiyu.system.domain;
 
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
-import com.ruoyi.common.core.web.domain.BaseEntity;
+import work.kaiyu.common.core.web.domain.BaseEntity;
 
 /**
  * 终端配置表 sys_oauth_client_details

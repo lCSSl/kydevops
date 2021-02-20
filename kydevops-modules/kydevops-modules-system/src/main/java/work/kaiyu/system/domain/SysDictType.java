@@ -4,9 +4,9 @@ import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
-import com.ruoyi.common.core.annotation.Excel;
-import com.ruoyi.common.core.annotation.Excel.ColumnType;
-import com.ruoyi.common.core.web.domain.BaseEntity;
+import work.kaiyu.common.core.annotation.Excel;
+import work.kaiyu.common.core.annotation.Excel.ColumnType;
+import work.kaiyu.common.core.web.domain.BaseEntity;
 
 /**
  * 字典类型表 sys_dict_type

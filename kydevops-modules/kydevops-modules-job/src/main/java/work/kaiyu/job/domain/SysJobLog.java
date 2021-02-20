@@ -3,8 +3,8 @@ package work.kaiyu.job.domain;
 import java.util.Date;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
-import com.ruoyi.common.core.annotation.Excel;
-import com.ruoyi.common.core.web.domain.BaseEntity;
+import work.kaiyu.common.core.annotation.Excel;
+import work.kaiyu.common.core.web.domain.BaseEntity;
 
 /**
  * 定时任务调度日志表 sys_job_log

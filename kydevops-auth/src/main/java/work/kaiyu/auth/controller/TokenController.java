@@ -11,10 +11,10 @@ import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import com.ruoyi.common.core.constant.Constants;
-import com.ruoyi.common.core.constant.SecurityConstants;
-import com.ruoyi.common.core.domain.R;
-import com.ruoyi.common.core.utils.StringUtils;
+import work.kaiyu.common.core.constant.Constants;
+import work.kaiyu.common.core.constant.SecurityConstants;
+import work.kaiyu.common.core.domain.R;
+import work.kaiyu.common.core.utils.StringUtils;
 import work.kaiyu.system.api.RemoteLogService;
 
 /**

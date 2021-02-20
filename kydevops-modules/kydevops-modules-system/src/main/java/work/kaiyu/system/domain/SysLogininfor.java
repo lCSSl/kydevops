@@ -2,9 +2,9 @@ package work.kaiyu.system.domain;
 
 import java.util.Date;
 import com.fasterxml.jackson.annotation.JsonFormat;
-import com.ruoyi.common.core.annotation.Excel;
-import com.ruoyi.common.core.annotation.Excel.ColumnType;
-import com.ruoyi.common.core.web.domain.BaseEntity;
+import work.kaiyu.common.core.annotation.Excel;
+import work.kaiyu.common.core.annotation.Excel.ColumnType;
+import work.kaiyu.common.core.web.domain.BaseEntity;
 
 /**
  * 系统访问记录表 sys_logininfor

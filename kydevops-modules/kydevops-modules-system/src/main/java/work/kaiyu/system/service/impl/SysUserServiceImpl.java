@@ -9,11 +9,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.ruoyi.common.core.constant.UserConstants;
-import com.ruoyi.common.core.exception.CustomException;
-import com.ruoyi.common.core.utils.StringUtils;
-import com.ruoyi.common.datascope.annotation.DataScope;
-import com.ruoyi.common.security.utils.SecurityUtils;
+import work.kaiyu.common.core.constant.UserConstants;
+import work.kaiyu.common.core.exception.CustomException;
+import work.kaiyu.common.core.utils.StringUtils;
+import work.kaiyu.common.datascope.annotation.DataScope;
+import work.kaiyu.common.security.utils.SecurityUtils;
 import work.kaiyu.system.api.domain.SysRole;
 import work.kaiyu.system.api.domain.SysUser;
 import work.kaiyu.system.domain.SysPost;

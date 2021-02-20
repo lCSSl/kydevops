@@ -3,7 +3,7 @@ package work.kaiyu.system.api.factory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
-import com.ruoyi.common.core.domain.R;
+import work.kaiyu.common.core.domain.R;
 import work.kaiyu.system.api.RemoteLogService;
 import work.kaiyu.system.api.domain.SysOperLog;
 import feign.hystrix.FallbackFactory;

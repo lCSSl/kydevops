@@ -7,9 +7,9 @@ import org.slf4j.LoggerFactory;
 import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.databind.SerializerProvider;
 import com.fasterxml.jackson.databind.ser.std.StdSerializer;
-import com.ruoyi.common.core.constant.HttpStatus;
-import com.ruoyi.common.core.utils.StringUtils;
-import com.ruoyi.common.core.web.domain.AjaxResult;
+import work.kaiyu.common.core.constant.HttpStatus;
+import work.kaiyu.common.core.utils.StringUtils;
+import work.kaiyu.common.core.web.domain.AjaxResult;
 
 /**
  * 自定义异常返回

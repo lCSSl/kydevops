@@ -3,8 +3,8 @@ package work.kaiyu.system.api;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
-import com.ruoyi.common.core.constant.ServiceNameConstants;
-import com.ruoyi.common.core.domain.R;
+import work.kaiyu.common.core.constant.ServiceNameConstants;
+import work.kaiyu.common.core.domain.R;
 import work.kaiyu.system.api.factory.RemoteUserFallbackFactory;
 import work.kaiyu.system.api.model.UserInfo;
 

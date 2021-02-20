@@ -21,10 +21,10 @@ import org.springframework.security.oauth2.provider.token.TokenEnhancer;
 import org.springframework.security.oauth2.provider.token.TokenStore;
 import org.springframework.security.oauth2.provider.token.store.redis.RedisTokenStore;
 import work.kaiyu.auth.exception.CustomWebResponseExceptionTranslator;
-import com.ruoyi.common.core.constant.CacheConstants;
-import com.ruoyi.common.core.constant.SecurityConstants;
-import com.ruoyi.common.security.domain.LoginUser;
-import com.ruoyi.common.security.service.RedisClientDetailsService;
+import work.kaiyu.common.core.constant.CacheConstants;
+import work.kaiyu.common.core.constant.SecurityConstants;
+import work.kaiyu.common.security.domain.LoginUser;
+import work.kaiyu.common.security.service.RedisClientDetailsService;
 
 /**
  * OAuth2 认证服务配置

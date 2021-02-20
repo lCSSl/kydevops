@@ -5,7 +5,7 @@ import org.springframework.cloud.gateway.filter.GatewayFilter;
 import org.springframework.cloud.gateway.filter.factory.AbstractGatewayFilterFactory;
 import org.springframework.http.server.reactive.ServerHttpRequest;
 import org.springframework.stereotype.Component;
-import com.ruoyi.common.core.utils.StringUtils;
+import work.kaiyu.common.core.utils.StringUtils;
 import work.kaiyu.gateway.service.ValidateCodeService;
 
 /**

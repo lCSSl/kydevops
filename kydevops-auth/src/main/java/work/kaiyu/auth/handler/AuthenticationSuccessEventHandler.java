@@ -5,9 +5,9 @@ import org.springframework.context.ApplicationListener;
 import org.springframework.security.authentication.event.AuthenticationSuccessEvent;
 import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Component;
-import com.ruoyi.common.core.constant.Constants;
-import com.ruoyi.common.core.utils.StringUtils;
-import com.ruoyi.common.security.domain.LoginUser;
+import work.kaiyu.common.core.constant.Constants;
+import work.kaiyu.common.core.utils.StringUtils;
+import work.kaiyu.common.security.domain.LoginUser;
 import work.kaiyu.system.api.RemoteLogService;
 
 /**

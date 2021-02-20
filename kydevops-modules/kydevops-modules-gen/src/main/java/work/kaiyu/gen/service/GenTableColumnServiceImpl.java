@@ -3,7 +3,7 @@ package work.kaiyu.gen.service;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.ruoyi.common.core.text.Convert;
+import work.kaiyu.common.core.text.Convert;
 import work.kaiyu.gen.domain.GenTableColumn;
 import work.kaiyu.gen.mapper.GenTableColumnMapper;
 

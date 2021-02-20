@@ -2,8 +2,8 @@ package work.kaiyu.gen.util;
 
 import java.util.Arrays;
 import org.apache.commons.lang3.RegExUtils;
-import com.ruoyi.common.core.constant.GenConstants;
-import com.ruoyi.common.core.utils.StringUtils;
+import work.kaiyu.common.core.constant.GenConstants;
+import work.kaiyu.common.core.utils.StringUtils;
 import work.kaiyu.gen.config.GenConfig;
 import work.kaiyu.gen.domain.GenTable;
 import work.kaiyu.gen.domain.GenTableColumn;

@@ -2,7 +2,7 @@ package work.kaiyu.gen.util;
 
 import java.util.Properties;
 import org.apache.velocity.app.Velocity;
-import com.ruoyi.common.core.constant.Constants;
+import work.kaiyu.common.core.constant.Constants;
 
 /**
  * VelocityEngine工厂

@@ -16,13 +16,13 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.ruoyi.common.core.constant.UserConstants;
-import com.ruoyi.common.core.utils.StringUtils;
-import com.ruoyi.common.core.web.controller.BaseController;
-import com.ruoyi.common.core.web.domain.AjaxResult;
-import com.ruoyi.common.log.annotation.Log;
-import com.ruoyi.common.log.enums.BusinessType;
-import com.ruoyi.common.security.utils.SecurityUtils;
+import work.kaiyu.common.core.constant.UserConstants;
+import work.kaiyu.common.core.utils.StringUtils;
+import work.kaiyu.common.core.web.controller.BaseController;
+import work.kaiyu.common.core.web.domain.AjaxResult;
+import work.kaiyu.common.log.annotation.Log;
+import work.kaiyu.common.log.enums.BusinessType;
+import work.kaiyu.common.security.utils.SecurityUtils;
 import work.kaiyu.system.api.domain.SysDept;
 import work.kaiyu.system.service.ISysDeptService;
 

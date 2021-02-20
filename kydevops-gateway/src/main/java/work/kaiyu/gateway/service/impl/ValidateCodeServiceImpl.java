@@ -10,12 +10,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.FastByteArrayOutputStream;
 import com.google.code.kaptcha.Producer;
-import com.ruoyi.common.core.constant.Constants;
-import com.ruoyi.common.core.exception.CaptchaException;
-import com.ruoyi.common.core.utils.IdUtils;
-import com.ruoyi.common.core.utils.StringUtils;
-import com.ruoyi.common.core.utils.sign.Base64;
-import com.ruoyi.common.core.web.domain.AjaxResult;
+import work.kaiyu.common.core.constant.Constants;
+import work.kaiyu.common.core.exception.CaptchaException;
+import work.kaiyu.common.core.utils.IdUtils;
+import work.kaiyu.common.core.utils.StringUtils;
+import work.kaiyu.common.core.utils.sign.Base64;
+import work.kaiyu.common.core.web.domain.AjaxResult;
 import com.ruoyi.common.redis.service.RedisService;
 import work.kaiyu.gateway.service.ValidateCodeService;
 

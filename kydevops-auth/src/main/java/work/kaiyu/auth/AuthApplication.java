@@ -2,7 +2,7 @@ package work.kaiyu.auth;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.cloud.client.SpringCloudApplication;
-import com.ruoyi.common.security.annotation.EnableRyFeignClients;
+import work.kaiyu.common.security.annotation.EnableRyFeignClients;
 
 /**
  * 认证授权中心

@@ -5,9 +5,9 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.ruoyi.common.core.constant.UserConstants;
-import com.ruoyi.common.core.exception.CustomException;
-import com.ruoyi.common.core.utils.StringUtils;
+import work.kaiyu.common.core.constant.UserConstants;
+import work.kaiyu.common.core.exception.CustomException;
+import work.kaiyu.common.core.utils.StringUtils;
 import work.kaiyu.system.domain.SysPost;
 import work.kaiyu.system.mapper.SysPostMapper;
 import work.kaiyu.system.mapper.SysUserPostMapper;

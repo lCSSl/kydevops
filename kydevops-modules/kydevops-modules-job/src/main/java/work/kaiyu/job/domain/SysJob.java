@@ -7,11 +7,11 @@ import javax.validation.constraints.Size;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
 import com.fasterxml.jackson.annotation.JsonFormat;
-import com.ruoyi.common.core.annotation.Excel;
-import com.ruoyi.common.core.annotation.Excel.ColumnType;
-import com.ruoyi.common.core.constant.ScheduleConstants;
-import com.ruoyi.common.core.utils.StringUtils;
-import com.ruoyi.common.core.web.domain.BaseEntity;
+import work.kaiyu.common.core.annotation.Excel;
+import work.kaiyu.common.core.annotation.Excel.ColumnType;
+import work.kaiyu.common.core.constant.ScheduleConstants;
+import work.kaiyu.common.core.utils.StringUtils;
+import work.kaiyu.common.core.web.domain.BaseEntity;
 import work.kaiyu.job.util.CronUtils;
 
 /**

@@ -8,10 +8,10 @@ import java.util.stream.Collectors;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.ruoyi.common.core.constant.UserConstants;
-import com.ruoyi.common.core.exception.CustomException;
-import com.ruoyi.common.core.utils.StringUtils;
-import com.ruoyi.common.datascope.annotation.DataScope;
+import work.kaiyu.common.core.constant.UserConstants;
+import work.kaiyu.common.core.exception.CustomException;
+import work.kaiyu.common.core.utils.StringUtils;
+import work.kaiyu.common.datascope.annotation.DataScope;
 import work.kaiyu.system.api.domain.SysDept;
 import work.kaiyu.system.domain.vo.TreeSelect;
 import work.kaiyu.system.mapper.SysDeptMapper;

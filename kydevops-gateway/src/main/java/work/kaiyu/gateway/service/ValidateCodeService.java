@@ -2,8 +2,8 @@ package work.kaiyu.gateway.service;
 
 import java.io.IOException;
 
-import com.ruoyi.common.core.exception.CaptchaException;
-import com.ruoyi.common.core.web.domain.AjaxResult;
+import work.kaiyu.common.core.exception.CaptchaException;
+import work.kaiyu.common.core.web.domain.AjaxResult;
 
 /**
  * 验证码处理

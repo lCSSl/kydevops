@@ -4,8 +4,8 @@ import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestParam;
-import com.ruoyi.common.core.constant.ServiceNameConstants;
-import com.ruoyi.common.core.domain.R;
+import work.kaiyu.common.core.constant.ServiceNameConstants;
+import work.kaiyu.common.core.domain.R;
 import work.kaiyu.system.api.domain.SysOperLog;
 import work.kaiyu.system.api.factory.RemoteLogFallbackFactory;
 

@@ -2,9 +2,9 @@ package work.kaiyu.system.utils;
 
 import java.util.Collection;
 import java.util.List;
-import com.ruoyi.common.core.constant.Constants;
-import com.ruoyi.common.core.utils.SpringUtils;
-import com.ruoyi.common.core.utils.StringUtils;
+import work.kaiyu.common.core.constant.Constants;
+import work.kaiyu.common.core.utils.SpringUtils;
+import work.kaiyu.common.core.utils.StringUtils;
 import com.ruoyi.common.redis.service.RedisService;
 import work.kaiyu.system.domain.SysDictData;
 
