@@ -18,9 +18,9 @@ import com.ruoyi.common.core.enums.UserStatus;
 import com.ruoyi.common.core.exception.BaseException;
 import com.ruoyi.common.core.utils.StringUtils;
 import com.ruoyi.common.security.domain.LoginUser;
-import com.ruoyi.system.api.RemoteUserService;
-import com.ruoyi.system.api.domain.SysUser;
-import com.ruoyi.system.api.model.UserInfo;
+import work.kaiyu.system.api.RemoteUserService;
+import work.kaiyu.system.api.domain.SysUser;
+import work.kaiyu.system.api.model.UserInfo;
 
 /**
  * 用户信息处理

@@ -6,7 +6,7 @@ server:
 spring:
   application:
     # 应用名称
-    name: ruoyi-gateway
+    name: ky-gateway
   profiles:
     # 环境配置
     active: dev
@@ -17,9 +17,11 @@ spring:
       discovery:
         # 服务注册地址
         server-addr: 47.103.204.249:8848
+        namespace: a77cad58-3d8c-448a-be09-abed88bc7d78
       config:
         # 配置中心地址
         server-addr: 47.103.204.249:8848
+        namespace: a77cad58-3d8c-448a-be09-abed88bc7d78
         # 配置文件格式
         file-extension: yml
         # 共享配置
@@ -35,7 +37,7 @@ spring:
         ds1:
           nacos:
             server-addr: 47.103.204.249:8848
-            dataId: sentinel-ruoyi-gateway
+            dataId: sentinel-ky-gateway
             groupId: DEFAULT_GROUP
             data-type: json
             rule-type: flow

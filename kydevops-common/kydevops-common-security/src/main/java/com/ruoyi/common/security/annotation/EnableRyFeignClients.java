@@ -17,7 +17,7 @@ import java.lang.annotation.*;
 public @interface EnableRyFeignClients {
     String[] value() default {};
 
-    String[] basePackages() default {"com.ruoyi"};
+    String[] basePackages() default {"work.kaiyu"};
 
     Class<?>[] basePackageClasses() default {};
 

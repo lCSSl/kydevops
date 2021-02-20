@@ -2,8 +2,8 @@
 <!DOCTYPE mapper
 PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.ruoyi.system.mapper.SysClientDetailsMapper">
-    
+<mapper namespace="work.kaiyu.system.mapper.SysClientDetailsMapper">
+
     <resultMap type="SysClientDetails" id="SysClientDetailsResult">
         <result property="clientId"               column="client_id"                />
         <result property="resourceIds"            column="resource_ids"             />
@@ -25,16 +25,16 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 
     <select id="selectSysClientDetailsList" parameterType="SysClientDetails" resultMap="SysClientDetailsResult">
         <include refid="selectSysClientDetailsVo"/>
-        <where>  
+        <where>
             <if test="clientId != null  and clientId != ''"> and client_id = #{clientId}</if>
         </where>
     </select>
-    
+
     <select id="selectSysClientDetailsById" parameterType="String" resultMap="SysClientDetailsResult">
         <include refid="selectSysClientDetailsVo"/>
         where client_id = #{clientId}
     </select>
-        
+
     <insert id="insertSysClientDetails" parameterType="SysClientDetails">
         insert into sys_oauth_client_details
         <trim prefix="(" suffix=")" suffixOverrides=",">
@@ -90,10 +90,10 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
     </delete>
 
     <delete id="deleteSysClientDetailsByIds" parameterType="String">
-        delete from sys_oauth_client_details where client_id in 
+        delete from sys_oauth_client_details where client_id in
         <foreach item="clientId" collection="array" open="(" separator="," close=")">
             #{clientId}
         </foreach>
     </delete>
-    
+
 </mapper>

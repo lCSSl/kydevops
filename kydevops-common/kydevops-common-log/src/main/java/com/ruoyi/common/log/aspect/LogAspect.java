@@ -28,7 +28,7 @@ import com.ruoyi.common.log.enums.BusinessStatus;
 import com.ruoyi.common.log.service.AsyncLogService;
 import com.ruoyi.common.security.domain.LoginUser;
 import com.ruoyi.common.security.utils.SecurityUtils;
-import com.ruoyi.system.api.domain.SysOperLog;
+import work.kaiyu.system.api.domain.SysOperLog;
 
 /**
  * 操作日志记录处理

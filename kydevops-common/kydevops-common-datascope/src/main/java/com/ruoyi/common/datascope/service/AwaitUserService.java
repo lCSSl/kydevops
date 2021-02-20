@@ -7,8 +7,8 @@ import org.springframework.stereotype.Service;
 import com.ruoyi.common.core.domain.R;
 import com.ruoyi.common.core.utils.StringUtils;
 import com.ruoyi.common.security.utils.SecurityUtils;
-import com.ruoyi.system.api.RemoteUserService;
-import com.ruoyi.system.api.model.UserInfo;
+import work.kaiyu.system.api.RemoteUserService;
+import work.kaiyu.system.api.model.UserInfo;
 
 /**
  * 同步调用用户服务
