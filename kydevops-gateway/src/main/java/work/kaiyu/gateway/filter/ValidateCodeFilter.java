@@ -1,17 +1,12 @@
-package com.ruoyi.gateway.filter;
+package work.kaiyu.gateway.filter;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.gateway.filter.GatewayFilter;
 import org.springframework.cloud.gateway.filter.factory.AbstractGatewayFilterFactory;
-import org.springframework.http.HttpHeaders;
 import org.springframework.http.server.reactive.ServerHttpRequest;
-import org.springframework.http.server.reactive.ServerHttpResponse;
 import org.springframework.stereotype.Component;
-import com.alibaba.fastjson.JSON;
 import com.ruoyi.common.core.utils.StringUtils;
-import com.ruoyi.common.core.web.domain.AjaxResult;
-import com.ruoyi.gateway.service.ValidateCodeService;
-import reactor.core.publisher.Mono;
+import work.kaiyu.gateway.service.ValidateCodeService;
 
 /**
  * 验证码过滤器

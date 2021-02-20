@@ -1,4 +1,4 @@
-package com.ruoyi.gateway.handler;
+package work.kaiyu.gateway.handler;
 
 import java.io.IOException;
 
@@ -11,7 +11,7 @@ import org.springframework.web.reactive.function.server.ServerRequest;
 import org.springframework.web.reactive.function.server.ServerResponse;
 import com.ruoyi.common.core.exception.CaptchaException;
 import com.ruoyi.common.core.web.domain.AjaxResult;
-import com.ruoyi.gateway.service.ValidateCodeService;
+import work.kaiyu.gateway.service.ValidateCodeService;
 import reactor.core.publisher.Mono;
 
 /**

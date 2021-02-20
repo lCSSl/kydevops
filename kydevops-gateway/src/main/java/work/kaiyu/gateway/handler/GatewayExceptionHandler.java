@@ -1,4 +1,4 @@
-package com.ruoyi.gateway.handler;
+package work.kaiyu.gateway.handler;
 
 import org.springframework.cloud.gateway.support.NotFoundException;
 import org.slf4j.Logger;

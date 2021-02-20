@@ -1,4 +1,4 @@
-package com.ruoyi.gateway.service.impl;
+package work.kaiyu.gateway.service.impl;
 
 import java.awt.image.BufferedImage;
 import java.io.IOException;
@@ -17,7 +17,7 @@ import com.ruoyi.common.core.utils.StringUtils;
 import com.ruoyi.common.core.utils.sign.Base64;
 import com.ruoyi.common.core.web.domain.AjaxResult;
 import com.ruoyi.common.redis.service.RedisService;
-import com.ruoyi.gateway.service.ValidateCodeService;
+import work.kaiyu.gateway.service.ValidateCodeService;
 
 /**
  * 验证码实现处理

@@ -68,19 +68,19 @@
 
         <!-- Ruoyi Common Security-->
         <dependency>
-            <groupId>com.ruoyi</groupId>
+            <groupId>work.kaiyu</groupId>
             <artifactId>kydevops-common-security</artifactId>
         </dependency>
 
         <!-- Ruoyi Common Log -->
         <dependency>
-            <groupId>com.ruoyi</groupId>
+            <groupId>work.kaiyu</groupId>
             <artifactId>kydevops-common-log</artifactId>
         </dependency>
 
         <!-- Ruoyi Common Swagger -->
         <dependency>
-            <groupId>com.ruoyi</groupId>
+            <groupId>work.kaiyu</groupId>
             <artifactId>kydevops-common-swagger</artifactId>
         </dependency>
 

@@ -1,4 +1,4 @@
-package com.ruoyi.gateway.config;
+package work.kaiyu.gateway.config;
 
 import java.util.Properties;
 

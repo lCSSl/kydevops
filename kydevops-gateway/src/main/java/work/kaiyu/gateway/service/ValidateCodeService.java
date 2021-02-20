@@ -1,4 +1,4 @@
-package com.ruoyi.gateway.service;
+package work.kaiyu.gateway.service;
 
 import java.io.IOException;
 

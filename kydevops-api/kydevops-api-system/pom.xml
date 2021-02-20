@@ -19,8 +19,8 @@
 
         <!-- RuoYi Common Core-->
         <dependency>
-            <groupId>com.ruoyi</groupId>
-            <artifactId>ruoyi-common-core</artifactId>
+            <groupId>work.kaiyu</groupId>
+            <artifactId>kydevops-common-core</artifactId>
         </dependency>
 
     </dependencies>
